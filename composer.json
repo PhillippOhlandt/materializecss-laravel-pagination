@@ -1,0 +1,29 @@
+{
+  "name": "phillippohlandt/materializecss-laravel-pagination",
+  "description": "Pagination Presenter for MaterializeCSS",
+  "keywords": [
+    "laravel",
+    "pagination",
+    "presenter",
+    "materializecss"
+  ],
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Phillipp Ohlandt",
+      "email": "phillipp.ohlandt@googlemail.com"
+    }
+  ],
+  "require": {
+    "illuminate/pagination": "5.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ohlandt\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
