@@ -1,0 +1,1 @@
+# materializecss-laravel-pagination
