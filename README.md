@@ -1,6 +1,6 @@
 # MaterializeCSS Laravel Pagination Presenter
 
----
+Laravel Pagination Presenter for http://materializecss.com/
 
 ### Installation
 ```
