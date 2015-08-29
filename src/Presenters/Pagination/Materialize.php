@@ -13,11 +13,12 @@ class Materialize extends BootstrapThreePresenter
      *
      * @return string
      */
-
     public function render()
     {
         if (!$this->hasPages())
+        {
             return '';
+        }
 
         return sprintf(
             '<div><ul class="pagination">%s %s %s</ul></div>',
@@ -69,8 +70,8 @@ class Materialize extends BootstrapThreePresenter
     /**
      * Get HTML wrapper for an available page link.
      *
-     * @param  string $url
-     * @param  int $page
+     * @param  string      $url
+     * @param  int         $page
      * @param  string|null $rel
      * @return string
      */
@@ -93,7 +94,7 @@ class Materialize extends BootstrapThreePresenter
      * Example: 'lime'
      * Example: 'lime darken-2'
      *
-     * @param $color
+     * @param  $color
      * @return $this
      */
     public function setColor($color)
